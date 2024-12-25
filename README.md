@@ -1,6 +1,5 @@
 <div align="center">
 
-<div align="center">
 
 <p float="left">
   <img width="256" alt="VSCode Logo" src="https://i.imgur.com/n7ieZfW.png" />
@@ -8,6 +7,8 @@
 </p>
 
 <br />
+
+</div>
 
 
 # Windsurf Discord Rich Presence
