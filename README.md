@@ -1,28 +1,17 @@
 <div align="center">
 
-[<img width="256" alt="VSCord Logo" src="https://i.imgur.com/n7ieZfW.png" />][vsmp-link]
+<div align="center">
+
+<p float="left">
+  <img width="256" alt="VSCode Logo" src="https://i.imgur.com/n7ieZfW.png" />
+  <img width="256" alt="Windsurf Logo" src="assets/windsurf_rpc.png" />
+</p>
 
 <br />
 
-[![Visual Studio Marketplace Version][shield-vsmp-version]][vsmp-link]
-[![Visual Studio Marketplace Downloads][shield-vsmp-downloads]][vsmp-link]
-[![Visual Studio Marketplace Installs][shield-vsmp-installs]][vsmp-link]
-[![Visual Studio Marketplace Rating][shield-vsmp-rating]][vsmp-link]
 
-[![Open VSX Version][shield-ovsx-version]][ovsx-link]
-[![Open VSX Downloads][shield-ovsx-downloads]][ovsx-link]
-[![Open VSX Rating][shield-ovsx-rating]][ovsx-link]
-
-[![Continuous Integration][shield-workflows-ci]][github-workflows-ci]
-[![Gitter Support Chat][shield-gitter-support]][gitter-vscord-support]
-
-[![Continuous Delivery][shield-workflows-cd]][github-workflows-cd]
-
-</div>
-
-<br />
-
-# VSCord
+# Windsurf Discord Rich Presence
+> Fork of [LeonardSSH/vscord](https://github.com/LeonardSSH/vscord) modified to add support for Windsurf text editor
 
 Highly customizable [Discord Rich Presence](https://discord.com/rich-presence) extension for [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -35,7 +24,7 @@ This extension does not work with snapstore / flatpak version of VSCode, please 
 ## 📌 Features
 
 -   Shows what you're working on!
--   Switch between 3 IDE names (`Code`, `Visual Studio Code` and `VSCodium`) or a custom one if you wish!
+-   Switch between 4 IDE names (`Code`, `Windsurf`, `Visual Studio Code` and `VSCodium`) or a custom one if you wish!
 -   Packed with 60+ extension settings!
 -   Tons of variable to use!
 -   Support for over 130+ of the most popular languages!
