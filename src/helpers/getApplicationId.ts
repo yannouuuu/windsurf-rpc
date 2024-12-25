@@ -4,6 +4,7 @@ import { CONFIG_KEYS } from "../constants";
 export const getApplicationId = (config: ExtensionConfiguration) => {
     const applicationIds = new Map([
         ["Code", "782685898163617802"],
+        ["Windsurf", "1321610323454591016"],
         ["Visual Studio Code", "810516608442695700"],
         ["VSCodium", "1031067701474492496"],
         ["Custom", config.get(CONFIG_KEYS.App.Id)!]
