@@ -376,9 +376,10 @@ export const replaceAppInfo = (text: string): string => {
 
     const isInsider = appName.includes("Insiders");
     const isCodium = appName.startsWith("VSCodium") || appName.startsWith("codium");
+    const isWindsurf = appName.startsWith("Windsurf");
 
     const insiderAppName = isCodium ? "vscodium-insiders" : "vscode-insiders";
-    const normalAppName = isCodium ? "vscodium" : "vscode";
+    const normalAppName = isWindsurf ? "windsurf" : isCodium ? "vscodium" : "vscode";
 
     const replaceMap = new Map([
         ["{app_name}", appName],
